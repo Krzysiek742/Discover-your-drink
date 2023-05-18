@@ -27,7 +27,7 @@ body {
   padding: 5px;
   font-size: 13px;
   border-radius: 10px 0 0 10px;
-  border: solid 3px black;
+
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -42,8 +42,8 @@ body {
 img {
   border-radius: 0 10px 10px 0;
   max-width: 700px;
-  min-height: 680px;
-  max-height: 680px;
+  min-height: 676px;
+  max-height: 676px;
 }
 
 a {
