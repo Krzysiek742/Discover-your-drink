@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Rostley";
+  font-family: "Romantic";
   src: url("/fonts/Romantic.otf") format("opentype");
 }
 
@@ -33,7 +33,7 @@ body {
 
 .recipe h1 {
   color: rgb(5, 168, 5);
-  font-family: Rostley;
+  font-family: Romantic;
   font-size: 50px;
   margin: 0 0 20px 0;
   text-align: center;
