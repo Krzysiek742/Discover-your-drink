@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Rostley";
+  src: url("/fonts/Romantic.otf") format("opentype");
+}
+
+body {
+  background-image: url(/subpages/smoothies/cleansing/images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.recipe {
+  background-color: rgba(0, 0, 0, 0.486);
+  color: rgb(255, 255, 255);
+  -webkit-flex: 1;
+  flex: 1;
+  max-width: 500px;
+  max-height: 100%;
+  padding: 5px;
+  font-size: 13px;
+  border-radius: 10px 0 0 10px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recipe h1 {
+  color: rgb(5, 168, 5);
+  font-family: Rostley;
+  font-size: 50px;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+img {
+  border-radius: 0 10px 10px 0;
+  max-width: 700px;
+  max-height: 670px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ul li::marker,
+ol li::marker {
+  color: rgb(5, 168, 5);
+}
+
+ol {
+  margin-bottom: 40px;
+}
+
+span {
+  color: rgb(5, 168, 5);
+  font-weight: bold;
+  text-align: justify;
+}
