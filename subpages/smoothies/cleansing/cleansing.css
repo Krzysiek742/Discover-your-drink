@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Romantic";
-  src: url("/fonts/Romantic.otf") format("opentype");
+  font-family: "Child";
+  src: url("/fonts/Child.otf") format("opentype");
 }
 
 body {
@@ -33,16 +33,16 @@ body {
 
 .recipe h1 {
   color: rgb(5, 168, 5);
-  font-family: Romantic;
-  font-size: 50px;
-  margin: 0 0 20px 0;
+  font-family: Child;
+  font-size: 35px;
+  margin: 20px 0 20px 0;
   text-align: center;
 }
 
 img {
   border-radius: 0 10px 10px 0;
   max-width: 700px;
-  max-height: 670px;
+  max-height: 677px;
 }
 
 a {
