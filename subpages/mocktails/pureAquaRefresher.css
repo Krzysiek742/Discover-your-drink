@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Rocket";
+    src: url("/fonts/Rocketpilot-Yz278.otf") format("truetype");
+  }
+  
+body {
+    background-image: url(/subpages/mocktails/image/splash.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+.recipe {
+    background-color: rgba(123, 211, 199, 0.596);
+    color: rgb(2, 2, 2);
+    -webkit-flex: 1;
+    flex: 1;
+    max-width: 500px;
+    max-height: 650px;
+    padding: 40px;
+    font-size: 15px;
+    border-radius: 10px 0 0 10px;
+  }
+  
+.recipe h1 {
+    color: rgba(0, 0, 0, 0.952);
+    font-family: Rocket;
+    font-size: 80px;
+    margin: 0 0 10px 0;
+    text-align: center;
+  }
+  
+img {
+    max-width: 583px;
+    max-height: 1200px;
+    border-radius: 0 10px 10px 0;
+  }
+  
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+ul {
+    list-style-type: square;
+  }
+  
+ul li::marker,
+ol li::marker {
+    color:  rgb(0, 0, 0);
+  }
+  
+  ol {
+    margin-bottom: 40px;
+  }
+  
+span {
+    color: rgb(0, 0, 0);
+  }
+
+.warning {
+    color: red;
+    font-size: 35px;
+}
+
