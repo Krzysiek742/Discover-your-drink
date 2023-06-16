@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Bitcheese";
+  src: url("/fonts/Bitcheese-w1YK2.ttf") format("truetype");
+}
+
+body {
+  background-image: url(./images/palms.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.recipe {
+  background-color: rgba(0, 0, 0, 0.726);
+  color: white;
+  -webkit-flex: 1;
+  flex: 1;
+  max-width: 500px;
+  max-height: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px 0 0 10px;
+}
+
+.recipe h1 {
+  color: orangered;
+  font-family: Bitcheese;
+  font-size: 50px;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+img {
+  border-radius: 0 10px 10px 0;
+  max-width: 500px;
+  max-height: 639px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ul li::marker,
+ol li::marker {
+  color: orangered;
+}
+
+ol {
+  margin-bottom: 40px;
+}
+
+span {
+  color: orangered;
+}
