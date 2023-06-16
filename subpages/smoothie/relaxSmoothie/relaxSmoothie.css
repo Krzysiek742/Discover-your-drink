@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Dalty";
+    src: url("/fonts/DaltyBold-0WR34.otf") format("truetype");
+  }
+  
+body {
+    background-image: url(/subpages/smoothie/relaxSmoothie/images/tlo.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+.recipe {
+    background-color: rgba(231, 220, 220, 0.726);
+    color: rgb(26, 25, 25);
+    -webkit-flex: 1;
+    flex: 1;
+    max-width: 500px;
+    max-height: 650px;
+    padding: 40px;
+    font-size: 15px;
+    border-radius: 10px 0 0 10px;
+  }
+  
+.recipe h1 {
+    color: rgb(50, 109, 17);
+    font-family: Dalty;
+    font-size: 150px;
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+  
+img {
+    max-width: 559px;
+    max-height: 1350px;
+    border-radius: 0 10px 10px 0;
+  }
+  
+a {
+    text-decoration: none;
+    color: black;
+  }
+  
+ul {
+    list-style-type: square;
+  }
+  
+ul li::marker,
+ol li::marker {
+    color:  rgb(50, 109, 17);
+  }
+  
+  ol {
+    margin-bottom: 40px;
+  }
+  
+span {
+    color: rgb(50, 109, 17);
+  }
