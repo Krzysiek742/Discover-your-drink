@@ -1,0 +1,99 @@
+body {
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgb(80, 252, 200), rgb(207, 255, 239), rgb(80, 252, 200));
+  border-radius: 20px;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.drink-name {
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: stanley-font;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: 550;
+  font-size: 75px;
+}
+
+nav,
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.card {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  margin-bottom: 50px;
+}
+
+.ingredients,
+.instructions {
+  color: white;
+  flex: 1;
+  max-width: 700px;
+  padding: 10px;
+  text-align: left;
+  list-style-type: none;
+}
+
+.ingredients-list {
+  font-size: xx-large;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  padding: 2px;
+}
+
+.instructions {
+  display: block;
+  text-align: left;
+  font-size: 24px;
+}
+
+.image {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(80, 252, 200);
+  padding: 10px;
+  border: 20px;
+  border-radius: 10px;
+  background-image: linear-gradient(rgb(80, 252, 200), rgb(156, 247, 220), rgb(0, 255, 221));
+}
