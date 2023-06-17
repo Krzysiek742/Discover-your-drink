@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Indie+Flower&display=swap');
+  
+  body {
+    background-image: url('/Discover-your-drink/subpages/smoothies/refreshingSmoothie/images/background\ refreshing\ smoothie.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .recipe {
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+    -webkit-flex: 1;
+    flex: 1;
+    max-width: 700px;
+    height: 72%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .recipe h1 {
+    color: rgb(252, 12, 64);
+    font-family: 'Indie Flower';
+    font-weight: 500;
+    font-size: 50px;
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+
+  .recipe h2 {
+    font-family: 'Indie Flower';
+    font-weight: 700;
+  }
+  
+  img {
+    max-width: 500px;
+    height: 634px;
+    border-radius: 0 10px 10px 0;
+  }
+  
+  ul {
+    list-style-type: square;
+    font-family: 'Baloo 2';
+    font-size: 20px;
+  }
+  
+  ul li::marker,
+  ol li::marker {
+    color: rgb(252, 12, 64);
+    font-size: 20px;
+  }
+  
+  ol {
+    margin-bottom: 40px;
+    font-family: 'Baloo 2';
+  }
+  
